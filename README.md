@@ -92,8 +92,9 @@ erDiagram
 ## 📂 Project Structure
 ```
 CIMS_System/
-├── app.py              # Main Application Dashboard (Python)
-├── database.sql        # Complete SQL Schema & Masked Data
-├── requirements.txt    # Python Dependencies
-└── README.md           # Documentation
+├── app/
+│   └── app.py              # Dashboard Code
+├── database/
+│   └── database.sql        # Database Script
+└── requirements.txt        # Dependencies  
 ```
